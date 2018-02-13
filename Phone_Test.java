@@ -16,7 +16,7 @@ public class Phone_Test {
 		String ph= l.nextLine();
 		ph.toLowerCase();
 		ph.toString();
-		
+
 		switch (ph) {
 		case "S8":
 			System.out.println("$"+S8.price);
@@ -27,7 +27,7 @@ public class Phone_Test {
 		case "G6":
 			System.out.println("$"+G6.price);
 			break;
-		
-	
 
-}}}
+
+
+		}}}
