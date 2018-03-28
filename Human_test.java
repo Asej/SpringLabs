@@ -13,6 +13,7 @@ String cr = person.nextLine();
 person.next();
 int age =person.nextInt();
 Human anthony= new Human(Fname,Lname,MI,cr,age);
+Human anth = new Human(Fname, Lname, MI, cr, age);
 person.close();
 System.out.println(anthony.Firstname);
 	}

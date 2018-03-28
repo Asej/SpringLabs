@@ -1,4 +1,4 @@
-package springlab;
+package springlab.SpringLabs;
 
 public class Jan92018 {
 

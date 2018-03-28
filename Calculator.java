@@ -1,0 +1,41 @@
+package springlab.SpringLabs;
+
+import java.util.Scanner;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Type the operation");
+		String op = input.nextLine();
+		System.out.println("Type first integer");
+		Double a = (double) input.nextInt();
+		System.out.println("Type second integer");
+		double b = input.nextDouble();
+		input.close();		
+		System.out.println("Here's your result");
+		if (op.equals("addition")){
+			System.out.println(addition(a, b));
+		}else if(op.equalsIgnoreCase("subtraction")) {
+			System.out.println(sub(a, b));
+		}else if(op.equalsIgnoreCase("multiplication")) {
+			System.out.println(multi(a, b));
+		}else if (op.equalsIgnoreCase("division")) {
+			System.out.println(div(a, b));
+		}
+		
+
+	}
+	public static double addition(double one,double two) {
+
+		return	one + two;
+	}
+	public static double sub(double one,double two) {
+		return one-two;
+	}
+	public static double div(double one,double two) {
+		return one/two;
+	}public static double multi(double a,double two) {
+		return a*two;
+	}
+}
