@@ -1,8 +1,8 @@
 package springlab.SpringLabs;
 
-public class DOGGIe {
+public class Movies {
 
-	public DOGGIe() {
+	public Movies() {
 		// TODO Auto-generated constructor stub
 	}
 
